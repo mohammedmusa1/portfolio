@@ -120,13 +120,14 @@ export function Hero() {
                 </motion.span>
               </span>
             </Link>
-            <Link
-              href="#contact"
-              className="group flex items-center gap-2 rounded-2xl border border-border bg-card/80 px-8 py-4 text-sm font-semibold text-foreground backdrop-blur-sm transition-all hover:border-primary hover:bg-primary/5 hover:shadow-lg"
-            >
-              <Download className="h-4 w-4 transition-transform group-hover:-translate-y-0.5" />
-              Download CV
-            </Link>
+            <a
+  href="/resume-musa.pdf"
+  download
+  className="group flex items-center gap-2 px-6 py-3 rounded-lg border border-gray-300 hover:border-purple-500 transition"
+>
+  <Download className="h-4 w-4 transition-transform group-hover:translate-y-0.5" />
+  Download CV
+</a>
           </motion.div>
         </div>
 
