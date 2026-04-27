@@ -16,6 +16,20 @@ export default function Home() {
         <Skills />
         <Projects />
         <Contact />
+        <a
+  href="/resume-musa.pdf"
+  download
+  style={{
+    padding: "10px 20px",
+    background: "blue",
+    color: "white",
+    borderRadius: "5px",
+    display: "inline-block",
+    marginTop: "20px"
+  }}
+>
+  Download Resume
+</a>
       </main>
       <Footer />
     </>
